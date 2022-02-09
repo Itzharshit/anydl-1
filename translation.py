@@ -1,10 +1,7 @@
 class Translation(object):
-    START_TEXT = """Hello <b>{message.from_user.first_name}</b>,
-This is a Telegram Multipurpose Bot Which can do many functions.
-
-/help for more details..
-
-follow me on github https://github.com/code-x-mania
+    START_TEXT = """Hii <b>{message.from_user.first_name}</b>,
+I am All In One Bot created by @pyrogrammers, i can do a lot of stuffs.
+Hit /help for more details..
 """
     IFLONG_FILE_NAME = " Only 64 characters can be named . "
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
